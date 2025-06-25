@@ -1,0 +1,25 @@
+.header {
+	background-color: var(--soft-bg);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding: 1em 1.1em;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.nav {
+	display: flex;
+	gap: 2em;
+}
+
+.link {
+	color: var(--text);
+	text-decoration: none;
+}
