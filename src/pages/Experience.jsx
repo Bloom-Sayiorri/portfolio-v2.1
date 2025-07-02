@@ -1,7 +1,7 @@
 import styles from "../styles/experience.module.css";
 import { experiences } from "../utils/data";
 
-export default function Experiences() {
+export default function Experience() {
 	const displayExperiences = experiences.map((exp) => {
 		return (
 			<li key={exp.index} className={styles.experience}>
@@ -16,6 +16,7 @@ export default function Experiences() {
 	});
 	return (
 		<main className={styles.main}>
+			<h3 className={styles.heading}>EXPERIENCE</h3>
 			<ul className={styles.ul}>{displayExperiences}</ul>
 		</main>
 	);

@@ -5,7 +5,13 @@ export default function Navbar() {
 	return (
 		<header className={styles.header}>
 			<section className={styles.logo}>
-				<img src="/logo.svg" alt="logo" height={30} width={30} />
+				<img
+					src="/logo.svg"
+					alt="logo"
+					className={styles.image}
+					height={30}
+					width={30}
+				/>
 				<span className={styles.myName}>Bloom Sayiorri</span>
 			</section>
 

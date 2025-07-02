@@ -9,8 +9,8 @@ export default function Skills() {
 					src={lang.imgUrl}
 					alt={lang.name}
 					className={styles.langImg}
-					height={lang.height}
-					width={lang.width}
+					height={50}
+					width={50}
 				/>
 			</li>
 		);
@@ -19,9 +19,7 @@ export default function Skills() {
 	return (
 		<section className={styles.container}>
 			<h4 className={styles.heading}>Experience with</h4>
-			<section className={styles.languages}>
-				<ul className={styles.wrapper}>{renderLanguages}</ul>
-			</section>
+			<ul className={styles.languages}>{renderLanguages}</ul>
 		</section>
 	);
 }

@@ -14,6 +14,11 @@
 	gap: 0.8rem;
 }
 
+img {
+	height: 30;
+	width: 30;
+}
+
 .nav {
 	display: flex;
 	gap: 2em;

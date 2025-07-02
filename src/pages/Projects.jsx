@@ -1,18 +1,35 @@
 import styles from "../styles/projects.module.css";
-import projectData from "../utils/data.js";
+import { projects } from "../utils/data.js";
+import { MdArrowOutward } from "react-icons/md";
 
 export default function Projects() {
-	const projects = projectData.map((p) => {
+	const allProjects = projects.map((p) => {
 		return (
-			<main className={styles.container}>
-				<img src={p.image} alt={p.name} height={30} width={30} />
-				<section className={styles.wrapper}>
-					<h4>{p.name}</h4>
-					<h5>{p.githubUrl}</h5>
-					<p>{p.description}</p>
+			<li key={p.name} className={styles.project}>
+				<img
+					src={p.image}
+					alt={p.name}
+					className={styles.image}
+					height={30}
+					width={30}
+				/>
+				<section className={styles.details}>
+					<h4 className={styles.name}>{p.name}</h4>
+					<section className={styles.links}>
+						<p className={styles.githubUrl}>
+							{p.githubUrl} <MdArrowOutward />
+						</p>
+						<p className={styles.liveDemo}>
+							{p.liveDemo} <MdArrowOutward />
+						</p>
+					</section>
 				</section>
-			</main>
+			</li>
 		);
 	});
-	return <>{projects}</>;
+	return (
+		<main className={styles.container}>
+			<ul className={styles.wrapper}>{allProjects}</ul>
+		</main>
+	);
 }
