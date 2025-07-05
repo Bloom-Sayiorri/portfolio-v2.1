@@ -14,7 +14,20 @@
 	gap: 0.8rem;
 }
 
-img {
+.myName {
+	background-image: linear-gradient(
+		to right,
+		rgb(50, 159, 237),
+		rgb(0, 85, 255)
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 1.5rem;
+	font-weight: medium;
+}
+
+.image {
 	height: 30;
 	width: 30;
 }
@@ -27,4 +40,10 @@ img {
 .link {
 	color: var(--text);
 	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+.link:hover {
+	text-decoration: 2px rgb(50, 159, 237) underline;
+	transform: scale(1.1);
 }

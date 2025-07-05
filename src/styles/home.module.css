@@ -43,14 +43,19 @@
 	gap: 1rem;
 }
 
-button {
+.contactBtn,
+.downloadBtn {
 	border: none;
 	border-radius: 1rem;
 	padding: 0.5rem 1rem;
 }
 
+.contactBtn {
+	background-color: var(--text);
+}
+
 .downloadBtn {
 	background-color: transparent;
 	color: white;
-	border: 2px solid var(--text);
+	border: 0.01px solid var(--text);
 }

@@ -12,7 +12,7 @@ export default function Navbar() {
 					height={30}
 					width={30}
 				/>
-				<span className={styles.myName}>Bloom Sayiorri</span>
+				<h4 className={styles.myName}>Bloom Sayiorri</h4>
 			</section>
 
 			<nav className={styles.nav}>

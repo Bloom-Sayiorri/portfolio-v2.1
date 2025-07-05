@@ -4,20 +4,29 @@ import { experiences } from "../utils/data";
 export default function Experience() {
 	const displayExperiences = experiences.map((exp) => {
 		return (
-			<li key={exp.index} className={styles.experience}>
+			<li key={exp.index} className={styles.card}>
 				<section className={styles.header}>
-					<span className={styles.icon}>{exp.icon}</span>
-					<p className={styles.title}>{exp.title}</p>
-					<span className={styles.date}>{exp.date}</span>
+					<section className={styles.company}>
+						<img
+							className={styles.icon}
+							src={exp.icon}
+							alt={exp.name}
+							height={20}
+							width={20}
+						/>
+						<p className={styles.title}>{exp.title}</p>
+					</section>
+					<p className={styles.date}>{exp.date}</p>
 				</section>
 				<p className={styles.description}>{exp.description}</p>
 			</li>
 		);
 	});
+
 	return (
 		<main className={styles.main}>
 			<h3 className={styles.heading}>EXPERIENCE</h3>
-			<ul className={styles.ul}>{displayExperiences}</ul>
+			<ul className={styles.container}>{displayExperiences}</ul>
 		</main>
 	);
 }
