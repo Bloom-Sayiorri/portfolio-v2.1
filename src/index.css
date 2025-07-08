@@ -1,6 +1,7 @@
 :root {
 	--bg-color: #161513;
 	--soft-bg: #1f1e1e;
+	--softer-bg: #3a3939;
 	--secondary-bg: #8491a0;
 	--blue-gradient: #5badff;
 	--light-text: #c5c5c5;
@@ -15,7 +16,6 @@
 	margin: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	/* outline: 1px solid red; */
 }
 
 body {

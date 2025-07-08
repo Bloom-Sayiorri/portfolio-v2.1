@@ -18,14 +18,14 @@ export default function Experience() {
 					</section>
 					<p className={styles.date}>{exp.date}</p>
 				</section>
-				<p className={styles.description}>{exp.description}</p>
+				<p className={styles.description}>{exp.description2}</p>
 			</li>
 		);
 	});
 
 	return (
 		<main className={styles.main}>
-			<h3 className={styles.heading}>EXPERIENCE</h3>
+			<h3 className={styles.heading}>Experience</h3>
 			<ul className={styles.container}>{displayExperiences}</ul>
 		</main>
 	);

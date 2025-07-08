@@ -41,6 +41,10 @@ export const languages = [
 		name: "nodejs",
 		imgUrl: "https://devicon-website.vercel.app/api/nodejs/original.svg",
 	},
+	// {
+	// 	name: "php",
+	// 	imgUrl: "https://devicon-website.vercel.app/api/php/plain.svg",
+	// },
 	{
 		name: "ruby",
 		imgUrl: "https://devicon-website.vercel.app/api/ruby/original-wordmark.svg",
@@ -59,19 +63,38 @@ export const languages = [
 	},
 ];
 
+export const skills = [
+	{
+		name: "git",
+		imgUrl: "https://devicon-website.vercel.app/api/git/original.svg",
+	},
+	{
+		name: "github",
+		imgUrl: "https://devicon-website.vercel.app/api/github/original.svg",
+	},
+	{
+		name: "docker",
+		imgUrl: "https://devicon-website.vercel.app/api/docker/original.svg",
+	},
+];
+
 export const experiences = [
 	{
 		icon: "https://devicon-website.vercel.app/api/google/original.svg",
-		title: "Google",
-		date: "Nov 2025 - present",
+		title: "Software Engineer Intern",
+		date: "March 2025 - April 2025",
 		description:
 			"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+		description2:
+			"As a Software Engineer Intern at Coding Samurai, I was able to be assigned various tasks to test my  frontensd skills as well as to upgrade them. Some of the projects i built are: Static portfolio, Counter application and a Todo-List web-app. The main technology used was Reactjs, TalwindCSS, API's(Application Programming Interface) and Redux.",
 	},
 	{
 		icon: "https://devicon-website.vercel.app/api/google/original.svg",
-		title: "Google",
-		date: "Nov 2025 - present",
+		title: "Web Developer Freelancer",
+		date: "June 2023 - February 2025",
 		description:
 			"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+		description2:
+			"As a Web Developer Freelancer, I got the opportunity to build scalable frontend web applications geared towards unique user-experience with an easy to use user-interface(UI/UX). Through this I managed to leverage the varioius technologies including but not limited to React.js, TailwindCSS and API's(Application Programming Interface).",
 	},
 ];

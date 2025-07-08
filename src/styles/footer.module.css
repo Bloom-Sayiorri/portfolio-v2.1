@@ -1,0 +1,50 @@
+.footer {
+	color: var(--text);
+	font-size: 1rem;
+	margin-top: auto;
+	padding: 0.8rem 1rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-beteween;
+	align-items: center;
+	font-size: 1rem;
+}
+
+.row2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.9rem;
+	margin: 0 0.5rem;
+}
+
+.column1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	font-size: 1rem;
+}
+
+.column2 {
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+a {
+	font-size: 1.6rem;
+	color: rgba(27, 194, 212, 0.86);
+}
+
+a:hover {
+	color: rgb(149, 149, 157);
+	scale: 1.2;
+}

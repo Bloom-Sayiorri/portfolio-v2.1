@@ -10,8 +10,8 @@ export default function Projects() {
 					src={p.image}
 					alt={p.name}
 					className={styles.image}
-					height={30}
-					width={30}
+					height={120}
+					width={120}
 				/>
 				<section className={styles.details}>
 					<h4 className={styles.name}>{p.name}</h4>

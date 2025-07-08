@@ -1,5 +1,6 @@
 import Skills from "../components/Skills";
 import styles from "../styles/home.module.css";
+import newProfile from "../assets/newprofile.jpg";
 
 export default function Home() {
 	const handleContact = () => {};
@@ -7,12 +8,13 @@ export default function Home() {
 	return (
 		<main className={styles.main}>
 			<img
-				src=""
+				src={newProfile}
 				alt="avatar"
 				className={styles.avatar}
-				height={60}
-				width={60}
+				height={150}
+				width={150}
 			/>
+			{/* <div className={styles.right}> */}
 			<section className={styles.homeDetails}>
 				<p className={styles.headline}>
 					I do code and make content
@@ -29,19 +31,18 @@ export default function Home() {
 				<button
 					type="button"
 					className={styles.contactBtn}
-					onClick={handleContact}
-				>
+					onClick={handleContact}>
 					Get In Touch
 				</button>
 				<button
 					type="button"
 					className={styles.downloadBtn}
-					onClick={handleDownloadCV}
-				>
+					onClick={handleDownloadCV}>
 					Download
 				</button>
 			</section>
 			<Skills />
+			{/* </div> */}
 		</main>
 	);
 }
