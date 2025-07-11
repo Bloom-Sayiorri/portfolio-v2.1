@@ -1,8 +1,29 @@
 export const projects = [
 	{
-		image: "",
-		name: "",
-		description: "",
+		image: "https://media.gettyimages.com/id/2213583398/photo/a-unique-horse-in-iceland.jpg?s=2048x2048&w=gi&k=20&c=w5ZcJrq-H1U-c8RlHNh9uwaTKIdsVPWsjjphAPv8Gh0=",
+		name: "Project One",
+		description: "A good project",
+		githubUrl: "",
+		liveDemo: "",
+	},
+	{
+		image: "https://media.gettyimages.com/id/2194335105/photo/taxi-car-driving-among-high-rise-buildings-at-sunset-hong-kong.jpg?s=2048x2048&w=gi&k=20&c=qNUhLQGLyq24LkdetJjNFvVVyp8NuwvqMPiXO2yWaQ0=",
+		name: "Project Two",
+		description: "A good project",
+		githubUrl: "",
+		liveDemo: "",
+	},
+	{
+		image: "https://media.gettyimages.com/id/2178056553/photo/fiery-sky-at-dawn-over-lake-misurina-dolomites.jpg?s=612x612&w=gi&k=20&c=jPzTSkc7ZPqqR9qI8xh4lL0P8nWfe0OfVsoo_TSt7PQ=",
+		name: "Project Three",
+		description: "A good project",
+		githubUrl: "",
+		liveDemo: "",
+	},
+	{
+		image: "https://media.gettyimages.com/id/2203080473/photo/coliseum-and-rome-skyline-illuminated-at-dusk-elevated-view-lazio-italy.jpg?s=612x612&w=gi&k=20&c=HhEAXTGffpzQCuASj9_-xx-8vBaC2FwiHT9PRSSw2bU=",
+		name: "Project Four",
+		description: "A good project",
 		githubUrl: "",
 		liveDemo: "",
 	},

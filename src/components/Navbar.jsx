@@ -29,6 +29,11 @@ export default function Navbar() {
 					Contact
 				</NavLink>
 			</nav>
+			<div className={styles.menu}>
+				<div className={styles.burger1}></div>
+				<div className={styles.burger2}></div>
+				<div className={styles.burger3}></div>
+			</div>
 		</header>
 	);
 }

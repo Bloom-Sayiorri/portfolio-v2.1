@@ -18,7 +18,8 @@
 	/* border: none; */
 	border-radius: 100%;
 	background-repeat: none;
-	object-fit: cover;
+	background-position: center;
+	background-size: cover;
 }
 
 .homeDetails {
