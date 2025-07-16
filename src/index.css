@@ -23,6 +23,7 @@ body {
 	color: var(--text);
 	font-family: var(--main-font);
 	line-height: 1.5;
+	font-size: medium;
 	font-weight: 400;
 	overflow-x: hidden;
 	font-synthesis: none;

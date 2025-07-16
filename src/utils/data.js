@@ -13,20 +13,20 @@ export const projects = [
 		githubUrl: "",
 		liveDemo: "",
 	},
-	{
-		image: "https://media.gettyimages.com/id/2178056553/photo/fiery-sky-at-dawn-over-lake-misurina-dolomites.jpg?s=612x612&w=gi&k=20&c=jPzTSkc7ZPqqR9qI8xh4lL0P8nWfe0OfVsoo_TSt7PQ=",
-		name: "Project Three",
-		description: "A good project",
-		githubUrl: "",
-		liveDemo: "",
-	},
-	{
-		image: "https://media.gettyimages.com/id/2203080473/photo/coliseum-and-rome-skyline-illuminated-at-dusk-elevated-view-lazio-italy.jpg?s=612x612&w=gi&k=20&c=HhEAXTGffpzQCuASj9_-xx-8vBaC2FwiHT9PRSSw2bU=",
-		name: "Project Four",
-		description: "A good project",
-		githubUrl: "",
-		liveDemo: "",
-	},
+	// {
+	// 	image: "https://media.gettyimages.com/id/2178056553/photo/fiery-sky-at-dawn-over-lake-misurina-dolomites.jpg?s=612x612&w=gi&k=20&c=jPzTSkc7ZPqqR9qI8xh4lL0P8nWfe0OfVsoo_TSt7PQ=",
+	// 	name: "Project Three",
+	// 	description: "A good project",
+	// 	githubUrl: "",
+	// 	liveDemo: "",
+	// },
+	// {
+	// 	image: "https://media.gettyimages.com/id/2203080473/photo/coliseum-and-rome-skyline-illuminated-at-dusk-elevated-view-lazio-italy.jpg?s=612x612&w=gi&k=20&c=HhEAXTGffpzQCuASj9_-xx-8vBaC2FwiHT9PRSSw2bU=",
+	// 	name: "Project Four",
+	// 	description: "A good project",
+	// 	githubUrl: "",
+	// 	liveDemo: "",
+	// },
 ];
 
 export const languages = [
