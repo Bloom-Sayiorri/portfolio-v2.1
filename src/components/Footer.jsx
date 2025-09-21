@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 import styles from "../styles/footer.module.css";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
 	return (
@@ -10,16 +11,21 @@ export default function Footer() {
 				</p>
 			</div>
 			<div className={styles.row2}>
-				<a href="#" className="hover:text-blue-400">
+				{/* <NavLink to="https://" className="hover:text-blue-400">
 					<FaTwitter className={styles.twitterIcon} />
-				</a>
-				<a href="#" className={styles.linkedinIcon}>
+				</NavLink> */}
+				<NavLink
+					to="https://www.linkedin.com/in/bloom-sayiorri"
+					className={styles.linkedinIcon}>
 					<FaLinkedin className={styles.linkedinIcon} />
-				</a>
-				<a href="#" className={styles.githubIcon}>
+				</NavLink>
+				<NavLink
+					to="https://github.com/bloom-sayiorri"
+					className={styles.githubIcon}>
 					<FaGithub className={styles.githubIcon} />
-				</a>
+				</NavLink>
 			</div>
 		</footer>
 	);
 }
+

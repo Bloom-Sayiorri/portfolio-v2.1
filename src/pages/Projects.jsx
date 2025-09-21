@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "../styles/projects.module.css";
 import { projects } from "../utils/data.js";
 import { MdArrowOutward } from "react-icons/md";
@@ -21,18 +22,24 @@ export default function Projects() {
 					<h4 className={styles.name}>{p.name}</h4>
 					<p className={styles.description}>{p.description}</p>
 					<section className={styles.links}>
-						<button className={styles.btn} onCLick={handleClick}>
+						<NavLink
+							to={p.githubUrl}
+							className={styles.btn}
+							onClick={handleClick}>
 							Github URL
 							<span className={styles.githubUrl}>
 								{p.githubUrl} <MdArrowOutward />
 							</span>
-						</button>
-						<button className={styles.btn} onCLick={handleClick}>
+						</NavLink>
+						<NavLink
+							to={p.liveDemo}
+							className={styles.btn}
+							onClick={handleClick}>
 							Live Demo
 							<span className={styles.liveDemo}>
 								{p.liveDemo} <MdArrowOutward />
 							</span>
-						</button>
+						</NavLink>
 					</section>
 				</section>
 			</li>
@@ -45,3 +52,4 @@ export default function Projects() {
 		</main>
 	);
 }
+

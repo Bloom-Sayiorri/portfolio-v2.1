@@ -1,10 +1,11 @@
 .container {
-	height: 100%;
-	width: 700px;
-	/* min-width: 100%; */
 	display: flex;
 	flex-direction: column;
-	/* color: var(--text); */
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: var(--text);
 }
 
 .heading {
@@ -14,23 +15,22 @@
 	font-size: 1.7rem;
 	margin: 1rem 0;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .wrapper {
-	/* display: flex;
+	display: flex;
 	flex-direction: row;
 	padding: 1rem;
-	width: 100%; */
-
-	display: grid;
-	grid-template-columns: repeat(1fr, 200px);
-	grid-template-rows: repeat(1fr, 200px);
-	/* grid-column: 1 / 2;
-	grid-row: 1 / 2; */
+	width: 100%;
 	gap: 0.1rem;
-
 	width: 100%;
 	height: 100%;
+	/* display: grid;
+	grid-template-columns: repeat(1fr, 200px);
+	grid-template-rows: repeat(1fr, 200px); */
+	/* grid-column: 1 / 2;
+	grid-row: 1 / 2; */
 }
 
 .project {
@@ -42,7 +42,7 @@
 	border-radius: 0.9rem;
 	height: 400px;
 	width: 300px;
-	border: 1px solid red;
+	border: 1px solid white;
 }
 
 .image {
@@ -57,39 +57,38 @@
 }
 
 .details {
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* align-items: center; */
-	/* text-align: center; */
-	/* padding: 0.5rem; */
-	/* border-radius: 0.5rem; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
 	/* background-color: #f9f9f9; */
-	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	/* margin-bottom: 1rem; */
 	width: 100%;
 }
 
-.name {
-}
-
 .links {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap: 1rem;
-	width: 100%;
+	gap: 10px;
+}
+
+.links:hover {
+	color: white;
+	text-decoration: underline 2px rgb(0, 255, 247);
+	transform: scale(1.1);
+	transition: ease-in-out 1s linear;
 }
 
 .btn {
-	border-radius: 1.2rem;
-	padding: 0.5rem 1rem;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-size: medium;
+	border: none;
+	border-radius: 10px;
+	padding: 5px 8px;
+	text-align: center;
 }
 
-.name {
-}
-
-.githubUrl {
-}
-
-.liveDemo {
-}
