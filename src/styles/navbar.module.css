@@ -15,11 +15,7 @@
 }
 
 .myName {
-	background-image: linear-gradient(
-		to right,
-		rgb(50, 159, 237),
-		rgb(0, 85, 255)
-	);
+	background-image: linear-gradient(to right, rgb(50, 159, 237), rgb(0, 85, 255));
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -44,12 +40,13 @@
 }
 
 .link:hover {
-	text-decoration: 2px rgb(50, 159, 237) underline;
+	text-decoration: 2px rgba(27, 194, 212, 0.86) underline;
 	transform: scale(0.9);
+	color: white;
 }
 
 .active {
-	color: rgb(243, 86, 24);
+	color: rgba(27, 194, 212, 0.86);
 	font-weight: 500;
 	text-decoration: none;
 	font-size: 1.1rem;
@@ -77,3 +74,4 @@
 	color: white;
 	margin: 1px 0;
 }
+

@@ -2,9 +2,9 @@ import styles from "../styles/experience.module.css";
 import { experiences } from "../utils/data";
 
 export default function Experience() {
-	const displayExperiences = experiences.map((exp) => {
+	const displayExperiences = experiences.map((exp, index) => {
 		return (
-			<li key={exp.index} className={styles.card}>
+			<li key={index} className={styles.card}>
 				<section className={styles.header}>
 					<section className={styles.company}>
 						<img

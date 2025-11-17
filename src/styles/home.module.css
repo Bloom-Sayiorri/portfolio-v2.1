@@ -1,10 +1,3 @@
-/* .main {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	width: 100%;
-} */
-
 .main {
 	display: flex;
 	flex-direction: column;
@@ -15,7 +8,6 @@
 }
 
 .avatar {
-	/* border: none; */
 	border-radius: 100%;
 	background-repeat: none;
 	background-position: center;
@@ -33,12 +25,16 @@
 }
 
 .headline {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+.headlineText {
 	font-size: 2rem;
 	font-weight: bold;
 	color: var(--text);
-}
-
-.highlitedText {
 	background-image: linear-gradient(to right, #ff8660, #9a33ff);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -47,7 +43,7 @@
 .description {
 	/* border: 1px solid red; */
 	color: var(--light-text);
-	font-weight: 200;
+	font-weight: 600;
 	font-size: 0.85rem;
 	margin-bottom: 0.5rem;
 
@@ -67,16 +63,28 @@
 .downloadBtn {
 	border: none;
 	border-radius: 1rem;
-	padding: 0.5rem 1rem;
 	cursor: pointer;
+	font-size: 1em;
+	padding: 0.5rem 1rem;
 }
 
 .contactBtn {
 	background-color: var(--text);
 }
 
+.contactBtn:hover, .contactBtn:active {
+	color: var(--text);
+	background-color: transparent;
+	border: 1px solid white;
+}
+
 .downloadBtn {
 	background-color: transparent;
 	color: white;
 	border: 0.01px solid var(--text);
+}
+
+.downloadBtn:hover, .downloadBtn:active {
+	color: black;
+	background-color: var(--text);
 }

@@ -2,9 +2,9 @@ import styles from "../styles/skills.module.css";
 import { languages } from "../utils/data";
 
 export default function Skills() {
-	const renderLanguages = languages.map((lang) => {
+	const renderLanguages = languages.map((lang, index) => {
 		return (
-			<li key={lang.index} className={styles.langLi}>
+			<li key={index} className={styles.langLi}>
 				<img
 					src={lang.imgUrl}
 					alt={lang.name}
