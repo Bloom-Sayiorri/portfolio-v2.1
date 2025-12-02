@@ -1,8 +1,7 @@
 .footer {
 	color: var(--text);
-	/* font-size: 2rem; */
 	margin-top: auto;
-	padding: 2rem 0 1rem 0;
+	/* padding: 2rem 0 1rem 0; */
 
 	display: flex;
 	justify-content: center;
@@ -47,4 +46,13 @@ a {
 a:hover {
 	color: rgb(149, 149, 157);
 	scale: 1.2;
+}
+
+@media screen and (max-width: 648px) {
+	.footer {
+		display: flex;
+		flex-direction : column;
+		gap: .7rem;
+		padding-bottom: 1rem;
+	}
 }

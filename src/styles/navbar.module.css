@@ -1,9 +1,8 @@
 .header {
 	background-color: var(--soft-bg);
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	min-width: 100%;
 	padding: 0.6em 1.1em;
 }
 
@@ -52,26 +51,34 @@
 	font-size: 1.1rem;
 }
 
-.menu {
+.menu,
+.close {
 	cursor: pointer;
 	display: none;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 1px;
-	height: fit-content;
-	width: fit-content;
+	font-size: 2em;
 }
 
-.burger1,
-.burger2,
-.burger3 {
-	height: 3px;
-	width: 20px;
-	border: none;
-	border-radius: 10px;
-	background-color: white;
-	color: white;
-	margin: 1px 0;
-}
+@media screen and (max-width: 648px) {
+	.navbar {
+		display: none;
+	}
 
+	.mobileNavbar {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+		height: fit-content;
+		width: fit-content;
+		right: 0.7rem;
+		top: 3.4rem;
+		background-color: black;
+		padding: 10px;
+		border-radius: 0.5rem;
+	}
+
+	.menu,
+	.close {
+		display: flex;
+	}
+}

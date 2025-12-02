@@ -32,7 +32,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-input {
+/* input {
 	color: var(--text-dark);
 	border: 0.01px solid var(--secondary-bg);
 	border-radius: 10px;
@@ -52,7 +52,7 @@ textarea {
 	height: 300px;
 	width: 100%;
 	resize: none;
-}
+} */
 
 input::placeholder,
 textarea::placeholder {

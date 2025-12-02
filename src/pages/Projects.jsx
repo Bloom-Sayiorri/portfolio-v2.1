@@ -4,9 +4,6 @@ import { projects } from "../utils/data.js";
 import { MdArrowOutward } from "react-icons/md";
 
 export default function Projects() {
-	const handleClick = () => {
-		console.log("clicked!");
-	};
 
 	return (
 		<main className={styles.container}>
@@ -14,21 +11,19 @@ export default function Projects() {
 			<ul className={styles.wrapper}>
 				{projects.map((p, index) => (
 					<li key={index} className={styles.project}>
-						<img src={p.image} alt={p.name} className={styles.image} height={30} width={30} />
+						<img src={p.image} alt={p.name} className={styles.image} />
 						<section className={styles.details}>
 							<h4 className={styles.name}>{p.name}</h4>
 							<p className={styles.description}>{p.description}</p>
 							<section className={styles.links}>
-								<NavLink to={p.githubUrl} className={styles.btn} onClick={handleClick}>
+								<NavLink to={p.githubUrl} target="_blank" className={styles.btn}>
 									Github URL
-									<span className={styles.githubUrl}>
-										{p.githubUrl} <MdArrowOutward />
+									<span className={styles.githubUrl}> <MdArrowOutward />
 									</span>
 								</NavLink>
-								<NavLink to={p.liveDemo} className={styles.btn} onClick={handleClick}>
+								<NavLink to={p.liveDemo} target="_blank" className={styles.btn}>
 									Live Demo
-									<span className={styles.liveDemo}>
-										{p.liveDemo} <MdArrowOutward />
+									<span className={styles.liveDemo}> <MdArrowOutward />
 									</span>
 								</NavLink>
 							</section>

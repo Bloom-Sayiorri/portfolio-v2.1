@@ -14,15 +14,13 @@ export default function Home() {
 	return (
 		<main className={styles.main}>
 			<img src={newProfile} alt="avatar" className={styles.avatar} height={200} width={200} />
-			{/* <div className={styles.right}> */}
 			<section className={styles.homeDetails}>
 				<p className={styles.headline}>
 					<span className={styles.headlineText}>Hello There!</span> 👋
 				</p>
 				<p className={styles.description}>
-					I am a Full-stack Software Engineer with over 3 years of proffesional experience, specializing in frontend
-					development. My expertise lies in crafting robust scallable SaaS-based architecture on the AWS Amazon
-					platform.
+					I am a Full-stack Software Engineer with over 3 years of professional experience, specializing in frontend
+					and backend development. My expertise lies in crafting robust scallable SaaS-based applications.
 				</p>
 			</section>
 			<section className={styles.buttons}>

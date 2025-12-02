@@ -1,25 +1,28 @@
 export const projects = [
 	{
-		image: "https://media.gettyimages.com/id/2213583398/photo/a-unique-horse-in-iceland.jpg?s=2048x2048&w=gi&k=20&c=w5ZcJrq-H1U-c8RlHNh9uwaTKIdsVPWsjjphAPv8Gh0=",
-		name: "Project One",
-		description: "A good project",
-		githubUrl: "",
+		image:
+			"/devboard.png",
+		name: "Devboard",
+		description: "A collaborative workspace for individuals and teams.",
+		githubUrl: "https://github.com/Bloom-Sayiorri/devboard",
 		liveDemo: "",
 	},
 	{
-		image: "https://media.gettyimages.com/id/2194335105/photo/taxi-car-driving-among-high-rise-buildings-at-sunset-hong-kong.jpg?s=2048x2048&w=gi&k=20&c=qNUhLQGLyq24LkdetJjNFvVVyp8NuwvqMPiXO2yWaQ0=",
-		name: "Project Two",
-		description: "A good project",
-		githubUrl: "",
-		liveDemo: "",
+		image:
+			"/recipe-share.png",
+		name: "Recipe Share",
+		description: "A recipes sharing website for everyone.",
+		githubUrl: "https://github.com/Bloom-Tauta/recipe-app",
+		liveDemo: "https://recipe-app-eight-chi.vercel.app/",
 	},
-	// {
-	// 	image: "https://media.gettyimages.com/id/2178056553/photo/fiery-sky-at-dawn-over-lake-misurina-dolomites.jpg?s=612x612&w=gi&k=20&c=jPzTSkc7ZPqqR9qI8xh4lL0P8nWfe0OfVsoo_TSt7PQ=",
-	// 	name: "Project Three",
-	// 	description: "A good project",
-	// 	githubUrl: "",
-	// 	liveDemo: "",
-	// },
+	{
+		image:
+			"/foodiez.png",
+		name: "Foodiez",
+		description: "A recipes website where food meets community.",
+		githubUrl: "https://github.com/Bloom-Tauta/recipes-client",
+		liveDemo: "https://foodiez-mu.vercel.app/",
+	},
 	// {
 	// 	image: "https://media.gettyimages.com/id/2203080473/photo/coliseum-and-rome-skyline-illuminated-at-dusk-elevated-view-lazio-italy.jpg?s=612x612&w=gi&k=20&c=HhEAXTGffpzQCuASj9_-xx-8vBaC2FwiHT9PRSSw2bU=",
 	// 	name: "Project Four",
@@ -118,4 +121,10 @@ export const experiences = [
 		description2:
 			"As a Web Developer Freelancer, I got the opportunity to build scalable frontend web applications geared towards unique user-experience with an easy to use user-interface(UI/UX). Through this I managed to leverage the varioius technologies including but not limited to React.js, TailwindCSS and API's(Application Programming Interface).",
 	},
+
+
+
+
+
+
 ];
