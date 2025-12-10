@@ -13,7 +13,7 @@ export default function Home() {
 	const handleDownloadCV = () => {};
 	return (
 		<main className={styles.main}>
-			<img src={newProfile} alt="avatar" className={styles.avatar} height={200} width={200} />
+			<img src={newProfile} alt="avatar" className={styles.avatar} height={180} width={180} />
 			<section className={styles.homeDetails}>
 				<p className={styles.headline}>
 					<span className={styles.headlineText}>Hello There!</span> 👋

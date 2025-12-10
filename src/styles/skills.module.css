@@ -22,12 +22,39 @@
 }
 
 .langLi {
+	position: relative;
+	list-style: none;
 	display: flex;
 	margin: 0 0.5rem;
 	width: 100%;
+	z-index: 1;
 }
 
 .langImg:hover {
 	transform: scale(1.1);
 	transition: transform 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.langName {
+  position: absolute;
+  text-transform: capitalize;
+  bottom: -20px;         /* move name below the image */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 10px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
+  z-index: 50;
+}
+
+/* Show langName on hover */
+.langLi:hover .langName {
+  opacity: 1;
 }

@@ -5,6 +5,7 @@ export default function Skills() {
 	const renderLanguages = languages.map((lang, index) => {
 		return (
 			<li key={index} className={styles.langLi}>
+				<span className={styles.langName}>{lang.name}</span>
 				<img src={lang.imgUrl} alt={lang.name} className={styles.langImg} height={50} width={50} />
 			</li>
 		);
