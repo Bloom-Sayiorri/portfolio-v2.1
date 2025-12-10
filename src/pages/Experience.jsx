@@ -11,8 +11,8 @@ export default function Experience() {
 							className={styles.icon}
 							src={exp.icon}
 							alt={exp.name}
-							height={20}
-							width={20}
+							height={30}
+							width={30}
 						/>
 						<p className={styles.title}>{exp.title}</p>
 					</section>

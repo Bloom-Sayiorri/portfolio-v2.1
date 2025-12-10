@@ -104,16 +104,7 @@ export const skills = [
 
 export const experiences = [
 	{
-		icon: "https://devicon-website.vercel.app/api/google/original.svg",
-		title: "Software Engineer Intern",
-		date: "March 2025 - April 2025",
-		description:
-			"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
-		description2:
-			"As a Software Engineer Intern at Coding Samurai, I was able to be assigned various tasks to test my  frontensd skills as well as to upgrade them. Some of the projects i built are: Static portfolio, Counter application and a Todo-List web-app. The main technology used was Reactjs, TalwindCSS, API's(Application Programming Interface) and Redux.",
-	},
-	{
-		icon: "https://devicon-website.vercel.app/api/google/original.svg",
+		icon: "/logo.svg",
 		title: "Web Developer Freelancer",
 		date: "June 2023 - February 2025",
 		description:
@@ -121,10 +112,13 @@ export const experiences = [
 		description2:
 			"As a Web Developer Freelancer, I got the opportunity to build scalable frontend web applications geared towards unique user-experience with an easy to use user-interface(UI/UX). Through this I managed to leverage the varioius technologies including but not limited to React.js, TailwindCSS and API's(Application Programming Interface).",
 	},
-
-
-
-
-
-
+	{
+		icon: "/coding_samurai_logo.jpg",
+		title: "Software Engineer Intern",
+		date: "March 2025 - April 2025",
+		description:
+			"As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+		description2:
+			"As a Software Engineer Intern at Coding Samurai, I was able to be assigned various tasks to test my  frontensd skills as well as to upgrade them. Some of the projects i built are: Static portfolio, Counter application and a Todo-List web-app. The main technology used was Reactjs, TalwindCSS, API's(Application Programming Interface) and Redux.",
+	},
 ];
