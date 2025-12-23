@@ -5,7 +5,7 @@ export const projects = [
 		name: "Devboard",
 		description: "A collaborative workspace for individuals and teams.",
 		githubUrl: "https://github.com/Bloom-Sayiorri/devboard",
-		liveDemo: "",
+		liveDemo: "https://devboard-puce.vercel.app/",
 	},
 	{
 		image:
@@ -23,13 +23,6 @@ export const projects = [
 		githubUrl: "https://github.com/Bloom-Tauta/recipes-client",
 		liveDemo: "https://foodiez-mu.vercel.app/",
 	},
-	// {
-	// 	image: "https://media.gettyimages.com/id/2203080473/photo/coliseum-and-rome-skyline-illuminated-at-dusk-elevated-view-lazio-italy.jpg?s=612x612&w=gi&k=20&c=HhEAXTGffpzQCuASj9_-xx-8vBaC2FwiHT9PRSSw2bU=",
-	// 	name: "Project Four",
-	// 	description: "A good project",
-	// 	githubUrl: "",
-	// 	liveDemo: "",
-	// },
 ];
 
 export const languages = [

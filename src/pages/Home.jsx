@@ -10,7 +10,15 @@ export default function Home() {
 		navigate("/contact");
 	};
 
-	const handleDownloadCV = () => {};
+	const handleDownloadCV = () => {
+		const link = document.createElement("a");
+		link.href = "/files/cv.pdf";
+		link.download = "cv.pdf";
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	};
+
 	return (
 		<main className={styles.main}>
 			<img src={newProfile} alt="avatar" className={styles.avatar} height={180} width={180} />
@@ -19,8 +27,8 @@ export default function Home() {
 					<span className={styles.headlineText}>Hello There!</span> 👋
 				</p>
 				<p className={styles.description}>
-					I am a Full-stack Software Engineer with over 3 years of professional experience, specializing in frontend
-					and backend development. My expertise lies in crafting robust scallable SaaS-based applications.
+					I am a Full-stack Software Engineer with over 3 years of professional experience, specializing in frontend and
+					backend development. My expertise lies in crafting robust scallable SaaS-based applications.
 				</p>
 			</section>
 			<section className={styles.buttons}>
